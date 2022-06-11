@@ -48,12 +48,28 @@ function process_menu (_select, _hmove){
 				switch(index){
 					case 0: //Старт
 						room_goto_next();
+						ini_open("save.ini"); // открытие файла
+						ini_write_real("Room", "rm_number", 3);
+						ini_write_string("Room", "rm_number", "newgame");
+						ini_close(); // закрытие файла
 					break;
-					case 1: //Настройки
+					case 1:
+						ini_open("save.ini"); // открытие файла
+						rm_number = ini_read_real("Room", "rm_number", 3);
+						flag = ini_read_string("Room", "rm_number", "newgame");
+						ini_close(); // закрытие файла
+						if (flag == "saved"){
+							room_goto(rm_number);
+						}
+						else {
+							
+						}
+					break
+					case 2: //Настройки
 						sub_menu = SETTINGS;
 						index = 0;
 					break;
-					case 2: //Выход
+					case 3: //Выход
 						game_end();
 					break;
 				}

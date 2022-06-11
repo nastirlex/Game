@@ -14,11 +14,12 @@ ds_map_add(set, "volume", [5, [0, 10]]);
 time_held_right = 0;
 time_held_left = 0;
 
-menu[MAIN][0] = "Старт";
-menu[MAIN][1] = "Настройки";
-menu[MAIN][2] = "Выход";
+menu[MAIN][0] = "Новая игра";
+menu[MAIN][1] = "Продолжить";
+menu[MAIN][2] = "Настройки";
+menu[MAIN][3] = "Выход";
 
-menu[SETTINGS][0] = ["<Громкость> ", "volume"];
+menu[SETTINGS][0] = [" < Громкость > ", "volume"];
 menu[SETTINGS][1] = "Назад";
 
 index = 0; 

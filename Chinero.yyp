@@ -3,6 +3,7 @@
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":34,},
     {"id":{"name":"sDrops2","path":"sprites/sDrops2/sDrops2.yy",},"order":6,},
     {"id":{"name":"RoomSlides","path":"scripts/RoomSlides/RoomSlides.yy",},"order":0,},
+    {"id":{"name":"o_save","path":"objects/o_save/o_save.yy",},"order":14,},
     {"id":{"name":"oWave1","path":"objects/oWave1/oWave1.yy",},"order":1,},
     {"id":{"name":"sCourse1","path":"sprites/sCourse1/sCourse1.yy",},"order":2,},
     {"id":{"name":"playerJump","path":"sprites/playerJump/playerJump.yy",},"order":14,},
@@ -98,7 +99,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "Chinero",
