@@ -121,7 +121,9 @@ if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 
 if(horizSpeed != 0) image_xscale = sign(horizSpeed); // спрайты только вправо смотрят, это для переворота , если скорость > 0, sign=1, то правый спрайт, скорость < 0, sign=-1 -> левый спрайт
 
-
+// падение за пределы карты
+if (isDead)
+    room_restart();
 
 
 // image_speed = walkSpeed / 3; // скорость анимации, если = 1, то та скорость, которую мы установили

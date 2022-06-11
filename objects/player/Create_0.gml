@@ -25,3 +25,5 @@ wallJumpDelay = 0;
 wallJumpDelayMax = 17;
 
 depth = -10 // игрок виден поверх стенок и др.объектов
+
+isDead = false;
