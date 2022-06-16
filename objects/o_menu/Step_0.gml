@@ -47,7 +47,7 @@ function process_menu (_select, _hmove){
 			case(MAIN):
 				switch(index){
 					case 0: //Старт
-						
+						roomslides(1);
 						ini_open("save.ini"); // открытие файла
 						ini_write_real("Room", "rm_number", 3);
 						ini_write_string("Room", "rm_number", "newgame");
@@ -59,7 +59,7 @@ function process_menu (_select, _hmove){
 						flag = ini_read_string("Room", "rm_number", "newgame");
 						ini_close(); // закрытие файла
 						if (flag == "saved"){
-							
+							roomslides(rm_number);
 						}
 						else {
 							

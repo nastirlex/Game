@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Chinero",
-    "path": "Chinero.yyp",
+    "name": "Спрайты",
+    "path": "folders/Спрайты.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDoor3",
