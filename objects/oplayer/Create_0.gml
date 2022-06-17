@@ -6,7 +6,7 @@ horizSpeed = 0;
 vertSpeed = 0;
 
 walkSpeed = 4;
-jumpSpeed = 20; // horizontal speed
+jumpSpeed = 15; // horizontal speed
 
 
 vertJumpSpeed = -6;

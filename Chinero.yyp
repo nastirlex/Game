@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Sprite60","path":"sprites/Sprite60/Sprite60.yy",},"order":24,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":12,},
     {"id":{"name":"sDrops2","path":"sprites/sDrops2/sDrops2.yy",},"order":6,},
     {"id":{"name":"RoomSlides","path":"scripts/RoomSlides/RoomSlides.yy",},"order":0,},
@@ -62,13 +63,13 @@
     {"id":{"name":"sBreakage1","path":"sprites/sBreakage1/sBreakage1.yy",},"order":3,},
     {"id":{"name":"sFence","path":"sprites/sFence/sFence.yy",},"order":2,},
     {"id":{"name":"oBreakage2","path":"objects/oBreakage2/oBreakage2.yy",},"order":4,},
+    {"id":{"name":"sRoad","path":"sprites/sRoad/sRoad.yy",},"order":10,},
     {"id":{"name":"sPlat2","path":"sprites/sPlat2/sPlat2.yy",},"order":5,},
     {"id":{"name":"oHill3","path":"objects/oHill3/oHill3.yy",},"order":3,},
     {"id":{"name":"oCourse","path":"objects/oCourse/oCourse.yy",},"order":0,},
     {"id":{"name":"oDoor4","path":"objects/oDoor4/oDoor4.yy",},"order":12,},
     {"id":{"name":"Sound_menu","path":"sounds/Sound_menu/Sound_menu.yy",},"order":9,},
     {"id":{"name":"sHill5","path":"sprites/sHill5/sHill5.yy",},"order":12,},
-    {"id":{"name":"sRoad","path":"sprites/sRoad/sRoad.yy",},"order":0,},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},"order":0,},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":10,},
     {"id":{"name":"sPath","path":"sprites/sPath/sPath.yy",},"order":1,},
@@ -89,6 +90,7 @@
     {"id":{"name":"sPlat1","path":"sprites/sPlat1/sPlat1.yy",},"order":4,},
     {"id":{"name":"sBump2","path":"sprites/sBump2/sBump2.yy",},"order":1,},
     {"id":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},"order":1,},
+    {"id":{"name":"newRoomManag","path":"objects/newRoomManag/newRoomManag.yy",},"order":19,},
     {"id":{"name":"sDrops1","path":"sprites/sDrops1/sDrops1.yy",},"order":5,},
     {"id":{"name":"Path","path":"rooms/Path/Path.yy",},"order":4,},
     {"id":{"name":"sPlat3","path":"sprites/sPlat3/sPlat3.yy",},"order":6,},
@@ -153,7 +155,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "Chinero",

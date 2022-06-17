@@ -4,12 +4,18 @@
 #macro SETTINGS 1
 #macro TOTAL 2
 
-audio_play_sound(Sound_menu, 0.5, 0);
+ini_open("save.ini"); // открытие файла
+soundVolume =  ini_read_real("Menu", "volume", 5);
+ini_close(); // закрытие файла
+
+show_debug_message(soundVolume);
+audio_play_sound(Sound_menu, 0, 0);
+audio_sound_gain(Sound_menu, soundVolume/10, 0);
 
 global.dsm_settings = ds_map_create();
 #macro set global.dsm_settings
 
-ds_map_add(set, "volume", [5, [0, 10]]);
+ds_map_add(set, "volume", [soundVolume, [0, 10]]);
 
 time_held_right = 0;
 time_held_left = 0;

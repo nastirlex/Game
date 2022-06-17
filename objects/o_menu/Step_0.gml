@@ -47,24 +47,25 @@ function process_menu (_select, _hmove){
 			case(MAIN):
 				switch(index){
 					case 0: //Старт
-						roomslides(1);
+						roomslides(4);
 						ini_open("save.ini"); // открытие файла
-						ini_write_real("Room", "rm_number", 3);
-						ini_write_string("Room", "rm_number", "newgame");
+						ini_write_real("Room", "rm_number", 1);
+						ini_write_string("Room", "flag", "newgame");
 						ini_close(); // закрытие файла
 					break;
 					case 1:
 						ini_open("save.ini"); // открытие файла
-						rm_number = ini_read_real("Room", "rm_number", 3);
-						flag = ini_read_string("Room", "rm_number", "newgame");
+						rm_number = ini_read_real("Room", "rm_number", 1);
+						flag = ini_read_string("Room", "flag", "newgame");
 						ini_close(); // закрытие файла
+						show_debug_message(rm_number);
 						if (flag == "saved"){
 							roomslides(rm_number);
 						}
 						else {
 							
 						}
-					break
+					break;
 					case 2: //Настройки
 						sub_menu = SETTINGS;
 						index = 0;
@@ -81,6 +82,10 @@ function process_menu (_select, _hmove){
 						audio_sound_gain(Sound_menu, (set[? "volume"][0])/10, 0);
 					break;
 					case 1: //Выход
+						ini_open("save.ini"); // открытие файла
+						ini_write_real("Menu", "volume", set[? "volume"][0]);
+						ini_close(); // закрытие файла
+						show_debug_message(set[? "volume"][0]);
 						sub_menu = MAIN;
 						index = 1;
 					break;
