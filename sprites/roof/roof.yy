@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 3839,
+  "bbox_right": 1355,
   "bbox_top": 0,
-  "bbox_bottom": 262,
+  "bbox_bottom": 1082,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3840,
-  "height": 263,
+  "width": 1356,
+  "height": 1083,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"95ee81d3-2ffa-41b9-87e0-668e17409128","path":"sprites/clds/clds.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"95ee81d3-2ffa-41b9-87e0-668e17409128","path":"sprites/clds/clds.yy",},"LayerId":{"name":"4af49e88-88b7-4b03-88f8-50824874aaac","path":"sprites/clds/clds.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"clds","path":"sprites/clds/clds.yy",},"resourceVersion":"1.0","name":"95ee81d3-2ffa-41b9-87e0-668e17409128","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5a2e695-982b-4750-93b4-5f30426fcea9","path":"sprites/roof/roof.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5a2e695-982b-4750-93b4-5f30426fcea9","path":"sprites/roof/roof.yy",},"LayerId":{"name":"3a23dc23-b4e4-4f90-a7fa-af55c982f6e2","path":"sprites/roof/roof.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"roof","path":"sprites/roof/roof.yy",},"resourceVersion":"1.0","name":"a5a2e695-982b-4750-93b4-5f30426fcea9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"clds","path":"sprites/clds/clds.yy",},
+    "spriteId": {"name":"roof","path":"sprites/roof/roof.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4f880519-605c-49db-b6b7-4ec229e81abc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95ee81d3-2ffa-41b9-87e0-668e17409128","path":"sprites/clds/clds.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c9777215-f186-4765-acca-89a557e2fca1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5a2e695-982b-4750-93b4-5f30426fcea9","path":"sprites/roof/roof.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"clds","path":"sprites/clds/clds.yy",},
+    "parent": {"name":"roof","path":"sprites/roof/roof.yy",},
     "resourceVersion": "1.4",
-    "name": "clds",
+    "name": "roof",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4af49e88-88b7-4b03-88f8-50824874aaac","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a23dc23-b4e4-4f90-a7fa-af55c982f6e2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Town",
-    "path": "folders/Спрайты/Town.yy",
+    "name": "Roof",
+    "path": "folders/Спрайты/Roof.yy",
   },
   "resourceVersion": "1.0",
-  "name": "clds",
+  "name": "roof",
   "tags": [],
   "resourceType": "GMSprite",
 }
