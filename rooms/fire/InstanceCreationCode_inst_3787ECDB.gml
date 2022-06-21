@@ -1,1 +1,2 @@
-room_goto(6);
+newRoom = 7;
+audio_stop_sound(Sound_Fire);

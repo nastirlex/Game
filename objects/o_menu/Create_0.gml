@@ -9,7 +9,7 @@ soundVolume =  ini_read_real("Menu", "volume", 5);
 ini_close(); // закрытие файла
 
 show_debug_message(soundVolume);
-audio_play_sound(Sound_menu, 0, 0);
+audio_play_sound(Sound_menu, 0, 1);
 audio_sound_gain(Sound_menu, soundVolume/10, 0);
 
 global.dsm_settings = ds_map_create();
