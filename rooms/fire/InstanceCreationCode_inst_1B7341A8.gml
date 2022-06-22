@@ -1,1 +1,0 @@
-newRoom = room_previous(room)
