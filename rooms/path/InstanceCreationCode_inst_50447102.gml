@@ -1,1 +1,1 @@
-newRoom = 5;
+newRoom = room_next(room);
