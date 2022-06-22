@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
 
 var _up = keyboard_check_pressed(vk_up);
 var _down = keyboard_check_pressed(vk_down);

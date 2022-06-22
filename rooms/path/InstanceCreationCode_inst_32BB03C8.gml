@@ -1,3 +1,3 @@
-newRoom = 3;
-newX = 4400;
-newY = -300;
+newRoom = room_previous(room);
+//newX = 4400;
+//newY = -300;
