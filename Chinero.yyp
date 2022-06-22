@@ -97,6 +97,7 @@
     {"id":{"name":"sFarShore","path":"sprites/sFarShore/sFarShore.yy",},"order":1,},
     {"id":{"name":"sPlat4","path":"sprites/sPlat4/sPlat4.yy",},"order":7,},
     {"id":{"name":"playerRest","path":"sprites/playerRest/playerRest.yy",},"order":0,},
+    {"id":{"name":"Sprite78","path":"sprites/Sprite78/Sprite78.yy",},"order":15,},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":7,},
     {"id":{"name":"oDoor2","path":"objects/oDoor2/oDoor2.yy",},"order":10,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
@@ -113,6 +114,7 @@
     {"id":{"name":"sPlat1","path":"sprites/sPlat1/sPlat1.yy",},"order":4,},
     {"id":{"name":"sBump2","path":"sprites/sBump2/sBump2.yy",},"order":1,},
     {"id":{"name":"lest_botton","path":"sprites/lest_botton/lest_botton.yy",},"order":5,},
+    {"id":{"name":"sClimb","path":"sprites/sClimb/sClimb.yy",},"order":8,},
     {"id":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},"order":1,},
     {"id":{"name":"newRoomManag","path":"objects/newRoomManag/newRoomManag.yy",},"order":19,},
     {"id":{"name":"wave","path":"sprites/wave/wave.yy",},"order":12,},
@@ -147,6 +149,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
     {"roomId":{"name":"Bamboo","path":"rooms/Bamboo/Bamboo.yy",},},
+    {"roomId":{"name":"Last","path":"rooms/Last/Last.yy",},},
     {"roomId":{"name":"Bumps","path":"rooms/Bumps/Bumps.yy",},},
     {"roomId":{"name":"example","path":"rooms/example/example.yy",},},
     {"roomId":{"name":"Cage","path":"rooms/Cage/Cage.yy",},},
@@ -156,7 +159,6 @@
     {"roomId":{"name":"Town","path":"rooms/Town/Town.yy",},},
     {"roomId":{"name":"Roof","path":"rooms/Roof/Roof.yy",},},
     {"roomId":{"name":"Fire","path":"rooms/Fire/Fire.yy",},},
-    {"roomId":{"name":"Last","path":"rooms/Last/Last.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Спрайты.yy","order":1,"resourceVersion":"1.0","name":"Спрайты","tags":[],"resourceType":"GMFolder",},

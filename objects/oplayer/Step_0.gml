@@ -11,10 +11,12 @@ if(wallJumpDelay == 0) {
 }
 
 // wall jump
-if(onWall != 0) && (!place_meeting(x, y + 1, oInvisibleWall)) && (jump_move) {
-	wallJumpDelay = wallJumpDelayMax;
-	horizSpeed = -onWall * jumpSpeed;
-	vertSpeed = vertWallJump;	
+if (room == 1){
+	if(onWall != 0) && (!place_meeting(x, y + 1, oInvisibleWall)) && (jump_move) {
+		wallJumpDelay = wallJumpDelayMax;
+		horizSpeed = -onWall * jumpSpeed;
+		vertSpeed = vertWallJump;
+	}
 }
 
 //vertical movement
