@@ -5,7 +5,7 @@ image_speed = 0; // скорость анимации: стоит, поэтом�
 horizSpeed = 0;
 vertSpeed = 0;
 
-walkSpeed = 4;
+walkSpeed = 7;
 jumpSpeed = 15; // horizontal speed
 
 
