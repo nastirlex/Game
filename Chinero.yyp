@@ -70,6 +70,7 @@
     {"id":{"name":"sBreakage1","path":"sprites/sBreakage1/sBreakage1.yy",},"order":3,},
     {"id":{"name":"sFence","path":"sprites/sFence/sFence.yy",},"order":2,},
     {"id":{"name":"oBreakage2","path":"objects/oBreakage2/oBreakage2.yy",},"order":4,},
+    {"id":{"name":"o_load","path":"objects/o_load/o_load.yy",},"order":26,},
     {"id":{"name":"sRoad","path":"sprites/sRoad/sRoad.yy",},"order":10,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":33,},
     {"id":{"name":"sPlat2","path":"sprites/sPlat2/sPlat2.yy",},"order":5,},
