@@ -28,7 +28,7 @@
     "path": "folders/Объекты.yy",
   },
   "resourceVersion": "1.0",
-  "name": "OGame",
+  "name": "oBambooParallax",
   "tags": [],
   "resourceType": "GMObject",
 }
