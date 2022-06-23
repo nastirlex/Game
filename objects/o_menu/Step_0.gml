@@ -49,19 +49,20 @@ function process_menu (_select, _hmove){
 					case 0: //Старт
 						roomslides(room_next(room));
 						ini_open("save.ini"); // открытие файла
-						ini_write_real("Room", "rm_number", 1);
 						ini_write_string("Room", "flag", "newgame");
 						ini_close(); // закрытие файла
-						audio_stop_sound(Sound_menu)
+						audio_stop_sound(Sound_menu);
 					break;
 					case 1:
 						ini_open("save.ini"); // открытие файла
 						rm_number = ini_read_real("Room", "rm_number", 1);
 						flag = ini_read_string("Room", "flag", "newgame");
+						ini_write_string("Saving", "flagR", "true");
 						ini_close(); // закрытие файла
 						show_debug_message(rm_number);
 						if (flag == "saved"){
 							roomslides(rm_number);
+							audio_stop_all();
 						}
 						else {
 							

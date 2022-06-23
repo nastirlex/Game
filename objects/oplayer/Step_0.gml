@@ -11,7 +11,7 @@ if(wallJumpDelay == 0) {
 }
 
 // wall jump
-if (room == 1){
+if (room == 2){
 	if(onWall != 0) && (!place_meeting(x, y + 1, oInvisibleWall)) && (jump_move) {
 		wallJumpDelay = wallJumpDelayMax;
 		horizSpeed = -onWall * jumpSpeed;
@@ -118,7 +118,7 @@ if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 	
 	else  {
 		dust = 0; 
-		sprite_index = sPlayerIdle;
+		sprite_index = sPlayerWalk;
 		image_speed = 0;
 		image_index = (vertSpeed > 0);
 	}

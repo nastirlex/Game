@@ -1,1 +1,1 @@
-newRoom = room_previous(room)
+newRoom = room_previous(room);

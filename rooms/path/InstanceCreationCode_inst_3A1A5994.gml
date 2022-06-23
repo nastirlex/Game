@@ -1,3 +1,3 @@
 newRoom = room_next(room);
-//newX = 0;
-//newY = -300;
+newX = 50;
+newY = 50;
