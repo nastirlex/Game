@@ -101,35 +101,52 @@ if(place_meeting(x, y, oInvisibleWall)) {
 
 onWall = place_meeting(x + 1, y, oInvisibleWall) - place_meeting(x - 1, y, oInvisibleWall);
 
+if !(left_move)  || !(right_move) {
+	sprite_index = Sprite73;
+}
+//else if (left_move)  || (right_move) {
+//	image_speed = 1;
+//	sprite_index = sPlayerWalk;
+//}
+
 // animation
 if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 	if(onWall != 0) {
 		sprite_index = sPlayerWalk; // прыжки по стенам - ПОМЕНЯТЬ!!!!
 		image_xscale = onWall;
-	} else {
+	}
+	
+	else  {
 		dust = 0; 
 		sprite_index = sPlayerWalk;
 		image_speed = 0;
 		image_index = (vertSpeed > 0);
-		
 	}
 	//sprite_index = playerJump;
 	//image_speed = 0;
 	//if(vertSpeed > 0) image_index = 1; else image_index = 0; // при падении включаем второй кадр из прыжка, если вверх - первый
-} else { // приземление на пол
+}
+else if !(left_move)  || !(right_move) {
+	sprite_index = Sprite73;
+}
+else{ // приземление на пол
 	image_speed = 1;
 	if(horizSpeed == 0) sprite_index = sPlayerWalk; else sprite_index = sPlayerWalk;
 }
 
+
+
 if(horizSpeed != 0) image_xscale = sign(horizSpeed); // спрайты только вправо смотрят, это для переворота , если скорость > 0, sign=1, то правый спрайт, скорость < 0, sign=-1 -> левый спрайт
 
 // падение за пределы карты
-if (isDead)
+if (isDead){
     room_restart();
-
+	x = 100;
+	y = 100;
+}
 
 // image_speed = walkSpeed / 3; // скорость анимации, если = 1, то та скорость, которую мы установили
 
-//if(keyboard_check(vk_shift)) {
-//	walkSpeed = 7;
-//}
+while (keyboard_check(vk_shift)) {
+	walkSpeed = 10;
+}
