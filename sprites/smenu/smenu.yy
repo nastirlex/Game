@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 60,
-  "bbox_top": 11,
-  "bbox_bottom": 61,
+  "bbox_left": 0,
+  "bbox_right": 2559,
+  "bbox_top": 0,
+  "bbox_bottom": 1439,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 2560,
+  "height": 1440,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d5c1496-4d24-4bda-9463-69e911e3e766","path":"sprites/sDoor/sDoor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d5c1496-4d24-4bda-9463-69e911e3e766","path":"sprites/sDoor/sDoor.yy",},"LayerId":{"name":"e3e3713f-a9ee-423f-a6eb-a5d931426aea","path":"sprites/sDoor/sDoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"resourceVersion":"1.0","name":"1d5c1496-4d24-4bda-9463-69e911e3e766","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"664107f4-e5c5-4938-9d27-fac8a84e697b","path":"sprites/sMenu/sMenu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"664107f4-e5c5-4938-9d27-fac8a84e697b","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"e23ff62c-b1be-4dcd-a720-f112e813864d","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"664107f4-e5c5-4938-9d27-fac8a84e697b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},
+    "spriteId": {"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c625bd0-a6d0-4309-b389-be408326847a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d5c1496-4d24-4bda-9463-69e911e3e766","path":"sprites/sDoor/sDoor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"60f97d53-894c-453d-bd31-55f337afac4c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"664107f4-e5c5-4938-9d27-fac8a84e697b","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},
+    "parent": {"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},
     "resourceVersion": "1.4",
-    "name": "sDoor",
+    "name": "sMenu",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3e3713f-a9ee-423f-a6eb-a5d931426aea","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e23ff62c-b1be-4dcd-a720-f112e813864d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Спрайты.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sDoor",
+  "name": "sMenu",
   "tags": [],
   "resourceType": "GMSprite",
 }

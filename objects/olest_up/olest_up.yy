@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlayerWalk",
-    "path": "sprites/sPlayerWalk/sPlayerWalk.yy",
+    "name": "lest_botton",
+    "path": "sprites/lest_botton/lest_botton.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,10 +22,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oNewRoomManag","path":"objects/oNewRoomManag/oNewRoomManag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +32,7 @@
     "path": "folders/Объекты.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oLest_up",
   "tags": [],
   "resourceType": "GMObject",
 }
