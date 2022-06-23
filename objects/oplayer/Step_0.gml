@@ -101,9 +101,9 @@ if(place_meeting(x, y, oInvisibleWall)) {
 
 onWall = place_meeting(x + 1, y, oInvisibleWall) - place_meeting(x - 1, y, oInvisibleWall);
 
-if !(left_move)  || !(right_move) {
-	sprite_index = Sprite73;
-}
+//if !(left_move)  || !(right_move) {
+//	sprite_index = Sprite73;
+//}
 //else if (left_move)  || (right_move) {
 //	image_speed = 1;
 //	sprite_index = sPlayerWalk;
@@ -118,7 +118,7 @@ if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 	
 	else  {
 		dust = 0; 
-		sprite_index = sPlayerWalk;
+		sprite_index = sPlayerIdle;
 		image_speed = 0;
 		image_index = (vertSpeed > 0);
 	}
@@ -126,12 +126,12 @@ if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 	//image_speed = 0;
 	//if(vertSpeed > 0) image_index = 1; else image_index = 0; // при падении включаем второй кадр из прыжка, если вверх - первый
 }
-else if !(left_move)  || !(right_move) {
-	sprite_index = Sprite73;
-}
+//else if !(left_move)  || !(right_move) {
+//	sprite_index = Sprite73;
+//}
 else{ // приземление на пол
 	image_speed = 1;
-	if(horizSpeed == 0) sprite_index = sPlayerWalk; else sprite_index = sPlayerWalk;
+	if(horizSpeed == 0) sprite_index = sPlayerIdle; else sprite_index = sPlayerWalk;
 }
 
 
@@ -146,7 +146,3 @@ if (isDead){
 }
 
 // image_speed = walkSpeed / 3; // скорость анимации, если = 1, то та скорость, которую мы установили
-
-while (keyboard_check(vk_shift)) {
-	walkSpeed = 10;
-}

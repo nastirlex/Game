@@ -33,9 +33,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_61FFD3C4_1","path":"rooms/TownEnd/TownEnd.yy",},
-    {"name":"inst_1701FB04_1","path":"rooms/TownEnd/TownEnd.yy",},
-    {"name":"inst_7FDE23B8_1","path":"rooms/TownEnd/TownEnd.yy",},
+    {"name":"TownEnd","path":"rooms/TownEnd/TownEnd.yy",},
+    {"name":"TownEnd","path":"rooms/TownEnd/TownEnd.yy",},
+    {"name":"TownEnd","path":"rooms/TownEnd/TownEnd.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
