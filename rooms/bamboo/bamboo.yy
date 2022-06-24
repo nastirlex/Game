@@ -23,6 +23,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.75,"scaleY":9.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2688.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1F4F64BD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_load","path":"objects/o_load/o_load.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1504.0,"y":704.0,"resourceVersion":"1.0","name":"inst_78E80014","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oPlayAudio","path":"objects/oPlayAudio/oPlayAudio.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":640.0,"resourceVersion":"1.0","name":"inst_14493ECA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oLovkost","path":"objects/oLovkost/oLovkost.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":1792.0,"resourceVersion":"1.0","name":"inst_2C1538E8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":5.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":1280.0,"resourceVersion":"1.0","name":"inst_51FC4B34","tags":[],"resourceType":"GMRInstance",},
@@ -62,6 +63,7 @@
     {"name":"inst_78E80014","path":"rooms/Bamboo/Bamboo.yy",},
     {"name":"inst_18B40977","path":"rooms/Bamboo/Bamboo.yy",},
     {"name":"inst_14493ECA","path":"rooms/Bamboo/Bamboo.yy",},
+    {"name":"inst_2C1538E8","path":"rooms/Bamboo/Bamboo.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

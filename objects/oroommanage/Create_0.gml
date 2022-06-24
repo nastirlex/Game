@@ -3,3 +3,4 @@
 depth = -100
 roomGo = false
 global.dark = 0
+global.count = 0

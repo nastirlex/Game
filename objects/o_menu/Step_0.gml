@@ -50,6 +50,7 @@ function process_menu (_select, _hmove){
 						roomslides(room_next(room));
 						ini_open("save.ini"); // открытие файла
 						ini_write_string("Room", "flag", "newgame");
+						ini_write_real("Cristals", "count", 0);
 						ini_close(); // закрытие файла
 						audio_stop_sound(Sound_menu);
 					break;
