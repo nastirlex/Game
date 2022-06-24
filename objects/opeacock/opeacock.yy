@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sElder",
-    "path": "sprites/sElder/sElder.yy",
+    "name": "sPeacockIdle",
+    "path": "sprites/sPeacockIdle/sPeacockIdle.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,17 +22,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerHappy","path":"objects/oPlayerHappy/oPlayerHappy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Last",
-    "path": "folders/Объекты/Last.yy",
+    "name": "Tree",
+    "path": "folders/Объекты/Tree.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oElder",
+  "name": "oPeacock",
   "tags": [],
   "resourceType": "GMObject",
 }

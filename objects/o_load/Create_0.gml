@@ -7,7 +7,11 @@ ini_write_string("Saving", "flagR", "false");
 //loadY = ini_read_real("Player", "y_coord", 100);
 ini_close(); // закрытие файла
 
-if (flagR == "true"){
+if (flagR == "true" && instance_exists(oPlayerHappy)){
 	instance_destroy(oPlayer);
-	instance_create_layer(80, 100, layer, oPlayer);
+}
+
+else if (flagR == "true") {
+	instance_destroy(oPlayer);
+	instance_create_layer(80, 100, layer, oPlayerHappy);
 }

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 649,
+  "bbox_right": 717,
   "bbox_top": 0,
-  "bbox_bottom": 513,
+  "bbox_bottom": 659,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 650,
-  "height": 514,
+  "width": 718,
+  "height": 660,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fc1626c6-5e71-4c3b-8946-c03b74eb6e0f","path":"sprites/sPeacock/sPeacock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc1626c6-5e71-4c3b-8946-c03b74eb6e0f","path":"sprites/sPeacock/sPeacock.yy",},"LayerId":{"name":"3baf4f2a-c3a3-411d-80fe-f362ee8f5bdb","path":"sprites/sPeacock/sPeacock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPeacock","path":"sprites/sPeacock/sPeacock.yy",},"resourceVersion":"1.0","name":"fc1626c6-5e71-4c3b-8946-c03b74eb6e0f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a60592ef-3047-418f-a2cc-62c4cb457bdc","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a60592ef-3047-418f-a2cc-62c4cb457bdc","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},"LayerId":{"name":"3f70e8f8-f659-41a9-a83d-f39807fb7a9c","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPeacockIdle","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},"resourceVersion":"1.0","name":"a60592ef-3047-418f-a2cc-62c4cb457bdc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPeacock","path":"sprites/sPeacock/sPeacock.yy",},
+    "spriteId": {"name":"sPeacockIdle","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ec8901e1-80c6-4803-9de8-c46b700b8653","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc1626c6-5e71-4c3b-8946-c03b74eb6e0f","path":"sprites/sPeacock/sPeacock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6305d883-a7ba-4dfe-b1d3-701c8fd824b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a60592ef-3047-418f-a2cc-62c4cb457bdc","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPeacock","path":"sprites/sPeacock/sPeacock.yy",},
+    "parent": {"name":"sPeacockIdle","path":"sprites/sPeacockIdle/sPeacockIdle.yy",},
     "resourceVersion": "1.4",
-    "name": "sPeacock",
+    "name": "sPeacockIdle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3baf4f2a-c3a3-411d-80fe-f362ee8f5bdb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f70e8f8-f659-41a9-a83d-f39807fb7a9c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Спрайты/Tree.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sPeacock",
+  "name": "sPeacockIdle",
   "tags": [],
   "resourceType": "GMSprite",
 }

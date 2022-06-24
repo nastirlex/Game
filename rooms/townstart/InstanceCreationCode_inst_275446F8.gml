@@ -1,4 +1,4 @@
-
+audio_stop_all();
 
 ini_open("save.ini"); // открытие файла
 soundVolume =  ini_read_real("Menu", "volume", 5);
