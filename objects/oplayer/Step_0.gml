@@ -114,9 +114,8 @@ if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 		//image_index = (vertSpeed > 0);
 		sprite_index = sPlayerJump;
 		image_speed = 0;
-		if(vertSpeed > 0) image_index = 1; else image_index = 0;
+		if(vertSpeed > 0) image_index = 1; else image_index = 0; // при падении включаем второй кадр из прыжка, если вверх - первый
 	}
-	 // при падении включаем второй кадр из прыжка, если вверх - первый
 } else { // приземление на пол
 	image_speed = 1;
 	if(horizSpeed == 0) sprite_index = sPlayerIdle; else sprite_index = sPlayerWalk;

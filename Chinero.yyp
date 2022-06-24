@@ -86,6 +86,7 @@
     {"id":{"name":"oBambooParallax","path":"objects/oBambooParallax/oBambooParallax.yy",},"order":13,},
     {"id":{"name":"Bumps","path":"rooms/Bumps/Bumps.yy",},"order":5,},
     {"id":{"name":"oDialogGrandmaa","path":"objects/oDialogGrandmaa/oDialogGrandmaa.yy",},"order":3,},
+    {"id":{"name":"sPlayerHappyJump","path":"sprites/sPlayerHappyJump/sPlayerHappyJump.yy",},"order":9,},
     {"id":{"name":"Sound_Water","path":"sounds/Sound_Water/Sound_Water.yy",},"order":3,},
     {"id":{"name":"oHillsParallax","path":"objects/oHillsParallax/oHillsParallax.yy",},"order":30,},
     {"id":{"name":"sFog","path":"sprites/sFog/sFog.yy",},"order":3,},
