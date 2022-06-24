@@ -172,6 +172,7 @@
     {"id":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"order":5,},
     {"id":{"name":"oPlayAudio","path":"objects/oPlayAudio/oPlayAudio.yy",},"order":24,},
     {"id":{"name":"Sound_Cage","path":"sounds/Sound_Cage/Sound_Cage.yy",},"order":1,},
+    {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":36,},
     {"id":{"name":"sElder","path":"sprites/sElder/sElder.yy",},"order":5,},
     {"id":{"name":"oLest_up","path":"objects/oLest_up/oLest_up.yy",},"order":20,},
   ],

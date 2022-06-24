@@ -11,7 +11,7 @@ if(wallJumpDelay == 0) {
 }
 
 // wall jump
-if (room == 2){
+if (room == 3) {
 	if(onWall != 0) && (!place_meeting(x, y + 1, oInvisibleWall)) && (jump_move) {
 		wallJumpDelay = wallJumpDelayMax;
 		horizSpeed = -onWall * jumpSpeed;
@@ -101,35 +101,22 @@ if(place_meeting(x, y, oInvisibleWall)) {
 
 onWall = place_meeting(x + 1, y, oInvisibleWall) - place_meeting(x - 1, y, oInvisibleWall);
 
-//if !(left_move)  || !(right_move) {
-//	sprite_index = Sprite73;
-//}
-//else if (left_move)  || (right_move) {
-//	image_speed = 1;
-//	sprite_index = sPlayerWalk;
-//}
-
 // animation
 if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 	if(onWall != 0) {
-		sprite_index = sPlayerWalk; // прыжки по стенам - ПОМЕНЯТЬ!!!!
+		sprite_index = sPlayerJump; // прыжки по стенам
 		image_xscale = onWall;
 	}
-	
 	else  {
 		dust = 0; 
 		sprite_index = sPlayerWalk;
 		image_speed = 0;
 		image_index = (vertSpeed > 0);
 	}
-	//sprite_index = playerJump;
-	//image_speed = 0;
-	//if(vertSpeed > 0) image_index = 1; else image_index = 0; // при падении включаем второй кадр из прыжка, если вверх - первый
-}
-//else if !(left_move)  || !(right_move) {
-//	sprite_index = Sprite73;
-//}
-else{ // приземление на пол
+	sprite_index = sPlayerJump;
+	image_speed = 0;
+	if(vertSpeed > 0) image_index = 1; else image_index = 0; // при падении включаем второй кадр из прыжка, если вверх - первый
+} else { // приземление на пол
 	image_speed = 1;
 	if(horizSpeed == 0) sprite_index = sPlayerIdle; else sprite_index = sPlayerWalk;
 }
