@@ -1,6 +1,6 @@
 /// @description
 
-d = instance_create_depth(0, 0, 0, oDialog);
+d = instance_create_depth(0, 0, 0, oDialogLast);
 d.timeline_index = tDialogMountain;
 d.timeline_running = true;
 d.timeline_speed = 0;

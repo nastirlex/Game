@@ -1,6 +1,6 @@
 /// @description
 
-d = instance_create_depth(0, 0, 0, oDialog);
+d = instance_create_depth(0, 0, 0, oDialogPeacock);
 d.timeline_index = tDialogTree;
 d.timeline_running = true;
 d.timeline_speed = 0;
