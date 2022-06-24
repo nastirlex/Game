@@ -105,7 +105,7 @@ onWall = place_meeting(x + 1, y, oInvisibleWall) - place_meeting(x - 1, y, oInvi
 // animation
 if(!place_meeting(x, y + 1, oInvisibleWall)) { // если в воздухе
 	if(onWall != 0) {
-		sprite_index = sPlayerHappy; // прыжки по стенам - ПОМЕНЯТЬ!!!!
+		sprite_index = sPlayerHappyJump; // прыжки по стенам - ПОМЕНЯТЬ!!!!
 		image_xscale = onWall;
 	}
 	
@@ -132,6 +132,13 @@ if (isDead){
     room_restart();
 	x = 100;
 	y = 100;
+}
+
+if (keyboard_check(vk_shift)){
+	walkSpeed = 10;
+}
+else {
+	walkSpeed = 6;
 }
 
 // image_speed = walkSpeed / 3; // скорость анимации, если = 1, то та скорость, которую мы установили

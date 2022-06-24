@@ -1,6 +1,5 @@
 /// @description 
 
-
 if (keyboard_check(vk_enter)){
 	sprite_index = sElder;
 	image_speed = 1;

@@ -132,4 +132,11 @@ if (isDead){
 	y = 100;
 }
 
+if (keyboard_check(vk_shift)){
+	walkSpeed = 10;
+}
+else {
+	walkSpeed = 6;
+}
+
 // image_speed = walkSpeed / 3; // скорость анимации, если = 1, то та скорость, которую мы установили
