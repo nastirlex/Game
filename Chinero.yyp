@@ -39,6 +39,7 @@
     {"id":{"name":"sLovkost","path":"sprites/sLovkost/sLovkost.yy",},"order":0,},
     {"id":{"name":"puddle","path":"sprites/puddle/puddle.yy",},"order":13,},
     {"id":{"name":"sGrandma","path":"sprites/sGrandma/sGrandma.yy",},"order":21,},
+    {"id":{"name":"Sound_Pasha2","path":"sounds/Sound_Pasha2/Sound_Pasha2.yy",},"order":14,},
     {"id":{"name":"sky76","path":"sprites/sky76/sky76.yy",},"order":0,},
     {"id":{"name":"sTreeBack","path":"sprites/sTreeBack/sTreeBack.yy",},"order":1,},
     {"id":{"name":"sBambooBushes","path":"sprites/sBambooBushes/sBambooBushes.yy",},"order":4,},
