@@ -9,7 +9,7 @@ jumpSpeed = 14; // horizontal speed
 
 
 vertJumpSpeed = -6;
-vertWallJump = -4;
+vertWallJump = -20;
 vertMax = 10;
 vertMaxWall = 4;
 
