@@ -13,5 +13,5 @@ if (flagR == "true" && instance_exists(oPlayerHappy)){
 
 else if (flagR == "true") {
 	instance_destroy(oPlayer);
-	instance_create_layer(80, 100, layer, oPlayerHappy);
+	instance_create_layer(80, 100, layer, oPlayer);
 }

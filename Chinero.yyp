@@ -62,6 +62,7 @@
     {"id":{"name":"sHill3","path":"sprites/sHill3/sHill3.yy",},"order":10,},
     {"id":{"name":"Object29","path":"objects/Object29/Object29.yy",},"order":25,},
     {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":34,},
+    {"id":{"name":"sGrase","path":"sprites/sGrase/sGrase.yy",},"order":10,},
     {"id":{"name":"sHill4","path":"sprites/sHill4/sHill4.yy",},"order":11,},
     {"id":{"name":"oPlat4","path":"objects/oPlat4/oPlat4.yy",},"order":7,},
     {"id":{"name":"oBreakage1","path":"objects/oBreakage1/oBreakage1.yy",},"order":3,},
@@ -205,6 +206,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
+    {"roomId":{"name":"LastDialog","path":"rooms/LastDialog/LastDialog.yy",},},
     {"roomId":{"name":"HomeStartDialog","path":"rooms/HomeStartDialog/HomeStartDialog.yy",},},
     {"roomId":{"name":"HomeStart","path":"rooms/HomeStart/HomeStart.yy",},},
     {"roomId":{"name":"TownStart","path":"rooms/TownStart/TownStart.yy",},},
@@ -221,7 +223,6 @@
     {"roomId":{"name":"Cage","path":"rooms/Cage/Cage.yy",},},
     {"roomId":{"name":"Path","path":"rooms/Path/Path.yy",},},
     {"roomId":{"name":"LastStart","path":"rooms/LastStart/LastStart.yy",},},
-    {"roomId":{"name":"LastDialog","path":"rooms/LastDialog/LastDialog.yy",},},
     {"roomId":{"name":"Titles","path":"rooms/Titles/Titles.yy",},},
   ],
   "Folders": [
