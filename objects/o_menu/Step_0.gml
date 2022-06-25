@@ -51,6 +51,13 @@ function process_menu (_select, _hmove){
 						ini_open("save.ini"); // открытие файла
 						ini_write_string("Room", "flag", "newgame");
 						ini_write_real("Cristals", "count", 0);
+						ini_write_string("Cristal", "Brave", "true");
+						ini_write_string("Cristal", "Goal", "true");
+						ini_write_string("Cristal", "Lovkost", "true");
+						ini_write_string("Cristal", "Optimism", "true");
+						ini_write_string("Cristal", "Support", "true");
+						ini_write_string("Cristal", "Uporstvo", "true");
+						ini_write_string("Cristal", "Wish", "true");
 						ini_close(); // закрытие файла
 						audio_stop_sound(Sound_menu);
 					break;
